@@ -1,16 +1,23 @@
 html { 
-    background: url('../images/lucy.JPG') no-repeat top center fixed; 
+    background: url('../images/lucy.JPG') no-repeat top center scroll; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
   }
+  #windowDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 3px solid blue;
+  }
 
-  #windowContainerDiv{
+  #upperWindowContainerDiv{
       display: flex;
       justify-content: space-between;
       align-items: center;
       height: fit-content;
+      border: 3px solid green;
   }
 
   #windowClaItemDiv{
@@ -39,4 +46,12 @@ html {
 
   .name{
     font-family:Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
+  }
+
+  #displayDiv{
+    border: 3px solid red;
+  }
+
+  #footerDiv{
+    border: 3px solid yellow;
   }
