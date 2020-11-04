@@ -8,6 +8,7 @@ const WindowContainer = () => {
         <div id='windowDiv'>
             <div id='upperWindowContainerDiv'>
                 <div id='windowClaItemDiv'>
+                    <p className='helloWorldP'>Hello World!</p>
                     <h1 className='name'>Claudia</h1>
                     <h1 className='name'>Borghini</h1>
                     <h3>Software Engineer</h3>
