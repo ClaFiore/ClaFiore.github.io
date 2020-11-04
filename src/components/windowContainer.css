@@ -6,3 +6,18 @@ html {
     background-size: cover;
   }
 
+  #windowContainerDiv{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  #windowClaItemDiv{
+    margin-top: 3%;
+    margin-left: 3%;
+  }
+
+  #windowMenuItemDiv{
+    margin-top: 3%;
+    margin-right: 3%;
+  }

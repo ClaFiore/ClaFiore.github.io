@@ -3,14 +3,15 @@ import './windowContainer.css'
 
 const WindowContainer = () => {
     return(
-        <div>
-            <div>
-                CLAUDIA
+        <div id='windowContainerDiv'>
+            <div id='windowClaItemDiv'>
+                <h1>CLAUDIA BORGHINI</h1>
+                <h3>Software Engineer</h3>
             </div>
-            <div>
+            <div id='windowMenuItemDiv'>
                 MENU
                 <button>Projects</button>
-                <button>Blogs</button>
+                <button>Blog</button>
                 <button>Resume</button>
                 <button>Contact Me</button>
             </div>
