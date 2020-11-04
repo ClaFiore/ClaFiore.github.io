@@ -1,5 +1,6 @@
 import React from 'react'
 import './windowContainer.css'
+import Display from './Display'
 
 const WindowContainer = () => {
     return(
@@ -16,6 +17,7 @@ const WindowContainer = () => {
                 <button className='menu-btn'>resume</button>
                 <button className='menu-btn'>contacts</button>
             </div>
+            <Display />
         </div>
     )
 }

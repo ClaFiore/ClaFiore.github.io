@@ -1,5 +1,5 @@
 html { 
-    background: url('../images/earth.jpg') no-repeat center center fixed; 
+    background: url('../images/lucy.JPG') no-repeat top center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -10,6 +10,7 @@ html {
       display: flex;
       justify-content: space-between;
       align-items: center;
+      height: fit-content;
   }
 
   #windowClaItemDiv{
