@@ -5,16 +5,16 @@ const WindowContainer = () => {
     return(
         <div id='windowContainerDiv'>
             <div id='windowClaItemDiv'>
-                <h1>CLAUDIA</h1>
-                <h1>BORGHINI</h1>
+                <h1 className='name'>Claudia</h1>
+                <h1 className='name'>Borghini</h1>
                 <h3>Software Engineer</h3>
             </div>
             <div id='windowMenuItemDiv'>
-                <button className='menu-btn'>About</button>
-                <button className='menu-btn'>Projects</button>
-                <button className='menu-btn'>Blog</button>
-                <button className='menu-btn'>Resume</button>
-                <button className='menu-btn'>Contact Me</button>
+                <button className='menu-btn'>about</button>
+                <button className='menu-btn'>projects</button>
+                <button className='menu-btn'>blog</button>
+                <button className='menu-btn'>resume</button>
+                <button className='menu-btn'>contacts</button>
             </div>
         </div>
     )
