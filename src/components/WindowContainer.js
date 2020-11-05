@@ -10,7 +10,7 @@ import Resume from './Resume'
 import Contacts from './Contacts'
 import Footer from './Footer'
 import {Spring} from 'react-spring/renderprops'
-import gitlogo from '../images/gitlogo.png'
+
 
 const WindowContainer = () => {
     const aboutRef = useRef()

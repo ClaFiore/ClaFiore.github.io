@@ -3,14 +3,16 @@
   }
 
   #contentAboutDiv{
-    flex-basis: 70%;
+    flex-basis: 65%;
+    text-align: justify;
+    margin-right: 5%;
   }
 
 
   #claimgDiv{
-    padding-left: 2%;
     flex-basis: 30%;
     overflow: hidden;
+    border-radius: 5%;
   }
 
   #claImg{
