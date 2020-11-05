@@ -1,6 +1,7 @@
 import React, {useState, useRef} from 'react'
 import './windowContainer.css'
 import './intro.css'
+import './menu.css'
 import About from './About'
 import Skills from './Skills'
 import Projects from './Projects'
