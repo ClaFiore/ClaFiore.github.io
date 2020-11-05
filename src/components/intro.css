@@ -17,13 +17,30 @@
       justify-content: flex-end;
   }
 
-  .iconsDivs{
-    background-color: white;
-    border-color: white;
-    width:fit-content;
+  .fa-medium{
+    color: white;
   }
 
-  #gitImg{
-      width: 30%;
-  
+  .fa-github{
+    color: white;
   }
+
+  .fa-linkedin {
+    color: white;
+  }
+
+  .fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+      cursor: pointer;
+  }
+  

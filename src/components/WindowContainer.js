@@ -27,7 +27,7 @@ const WindowContainer = () => {
             <Spring
                 from={{opacity: 0, marginLeft: -500}}
                 to={{opacity:1, marginLeft: 0}}
-                config={{duration: 1200}}
+                config={{duration: 1500}}
             >
             { props => (
                 <div id='menuDiv'>
@@ -42,9 +42,19 @@ const WindowContainer = () => {
             </Spring>
                 <div id='contentDiv'>
                     <div id='introDiv'>
+                    <Spring
+                        from={{opacity: 0, marginRight: -500}}
+                        to={{opacity:1, marginRight: 0}}
+                        config={{duration: 1500}}
+                    >
+                    { props => (
                         <div id='socialIconsDiv'>
-                            
+                        <a style={props} target="_blank" rel="noopener noreferrer" href="https://github.com/clafiore" class="fa fa-github"></a>  
+                        <a style={props} target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/claudia-borghini/" class="fa fa-linkedin"></a>
+                        <a style={props} target="_blank" rel="noopener noreferrer" href="https://claborghini.medium.com/" class="fa fa-medium"></a>
                         </div>
+                        )}
+                        </Spring>
                         <div>
                             <h1 id='claudiaborghiniTitle'>CLAUDIA BORGHINI</h1>
                             <p className='textP'>I'm a passionate software engineer, specialized in building websites, applications, and everything in between.</p>
