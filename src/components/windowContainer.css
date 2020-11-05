@@ -1,76 +1,123 @@
-html { 
-    background: url('../images/lucy.JPG') no-repeat top center scroll; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
+body{
+  font-family: 'Montserrat', sans-serif;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+  } */
+}
 
-  body{
-    font-family: Arial, Helvetica, sans-serif;
-  }
-
-  #windowDiv{
+  #containerDiv{
+    background-color: #00001a;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    min-height: 100vh;
     /* border: 3px solid blue; */
   }
 
-  #upperWindowContainerDiv{
+  #windowDiv{
       display: flex;
-      justify-content: space-between;
-      align-items: center;
-      height: fit-content;
+      justify-content: stretch;
+      flex-direction: row;
+      height: 100vh;
+      overflow-y: hidden;
       /* border: 3px solid green; */
   }
 
-  #windowClaItemDiv{
-    /* margin-top: 3%; */
-    margin-left: 3%;
-    /* border: 1px solid white; */
-    height: 100%;
-  }
-
-  #windowMenuItemDiv{
-    /* margin-top: 3%;  */
-    margin-right: 3%;
+  #menuDiv{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    /* border: 1px solid white; */
     height: 100%;
+    left: 0;
+    bottom: 0;
+    order: 1;
+    flex-basis: 20%;
+    /* border: 1px solid orange; */
+  }
+
+  #contentDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 80%;
+    order: 2;
+    overflow: auto;
+    padding-right: 3%;
+    /* border: 3px solid yellow; */
+  }
+
+  #introDiv{
+    height: 100%;
+    z-index: 2;
+    /* border: 1px solid white; */
+  }
+
+  #displayDiv{
+    margin-top: 50px;
+    margin-bottom: 70px;
+    /* border: 3px solid pink; */
   }
 
   .menu-btn{
-      margin: 40px;
-      padding: 5px;
-      border: none;
-      border-radius: 5%;
-      font-size: large;
-      font-family: monospace;
+    align-self: center;
+    position: relative;
+    height: 45px;
+    width: 150px;
+    margin: 10px 7px;
+    padding: 5px 5px;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: white;
+    border: 2px white solid;
+    border-radius: 4px;
+    /* text-transform: uppercase; */
+    outline: 0;
+    overflow:hidden;
+    background: none;
+    z-index: 1;
+    cursor: pointer;
+    transition:         0.08s ease-in;
+    -o-transition:      0.08s ease-in;
+    -ms-transition:     0.08s ease-in;
+    -moz-transition:    0.08s ease-in;
+    -webkit-transition: 0.08s ease-in;
   }
+
+  .menu-btn:hover {
+    color: #00001a;
+  }
+  
+  .menu-btn::before {
+    content: "";
+    position: absolute;
+    background: white;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 100%;
+    z-index: -1;
+    -webkit-transition: top 0.09s ease-in;
+  }
+  
+  .menu-btn:hover::before {
+    top: 0;
+  }
+
+ 
 
   .helloWorldP{
     font-family: monospace;
   }
 
-
-  #displayDiv{
-    /* border: 3px solid red; */
-    /* margin-top: 50px;
-    margin-bottom: 70px; */
-  }
-
   #footerDiv{
     border: 1px solid rgb(36, 36, 35);
-    /* width: 100%; Full width (cover the whole div) */
-    height: 100%; /* Full height (cover the whole div) */
+    height: 100%; 
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0,0,0,0.8); /* Black background with opacity */
+    background-color: rgba(	4, 7, 59,0.8); 
     z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
     padding: 10px;
+    /* border: 3px solid aqua; */
   }
