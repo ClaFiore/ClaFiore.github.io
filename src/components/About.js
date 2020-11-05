@@ -1,5 +1,6 @@
 import React from 'react'
 import cla from '../images/cla.jpeg'
+import './about.css'
 
 const About = () => {
     return (
