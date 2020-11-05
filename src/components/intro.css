@@ -10,3 +10,20 @@
     font-size: 30px;
     font-weight: 500;
   }
+
+  #socialIconsDiv{
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+  }
+
+  .iconsDivs{
+    background-color: white;
+    border-color: white;
+    width:fit-content;
+  }
+
+  #gitImg{
+      width: 30%;
+  
+  }

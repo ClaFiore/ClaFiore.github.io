@@ -10,6 +10,7 @@ import Resume from './Resume'
 import Contacts from './Contacts'
 import Footer from './Footer'
 import {Spring} from 'react-spring/renderprops'
+import gitlogo from '../images/gitlogo.png'
 
 const WindowContainer = () => {
     const aboutRef = useRef()
@@ -41,8 +42,13 @@ const WindowContainer = () => {
             </Spring>
                 <div id='contentDiv'>
                     <div id='introDiv'>
+                        <div id='socialIconsDiv'>
+                            
+                        </div>
+                        <div>
                             <h1 id='claudiaborghiniTitle'>CLAUDIA BORGHINI</h1>
                             <p className='textP'>I'm a passionate software engineer, specialized in building websites, applications, and everything in between.</p>
+                        </div>
                     </div>
                     <div  id='displayDiv'>   
                         <div ref={aboutRef}><About /></div>
