@@ -1,6 +1,6 @@
 import React, {useState, useRef} from 'react'
 import './windowContainer.css'
-import cla from '../images/cla.jpeg'
+import './intro.css'
 import About from './About'
 import Skills from './Skills'
 import Projects from './Projects'
@@ -31,14 +31,9 @@ const WindowContainer = () => {
                 </div>
                 <div id='contentDiv'>
                     <div id='introDiv'>
-                        <div>
-                            <h1>CLAUDIA BORGHINI</h1>
+                            <h1 id='claudiaborghiniTitle'>CLAUDIA BORGHINI</h1>
                             <p className='helloWorldP'>Welcome to my world!</p>
                             <h3>I'm a software engineer, specialized in building exceptional websites, applications, and everything in between.</h3>
-                        </div>
-                        <div id='claimgDiv'>
-                            <img src={cla} id='claImg'/>
-                        </div>
                     </div>
                     <div  id='displayDiv'>   
                         <div ref={aboutRef}><About /></div>
