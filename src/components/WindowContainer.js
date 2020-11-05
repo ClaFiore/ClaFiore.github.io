@@ -8,6 +8,7 @@ import Blog from './Blog'
 import Resume from './Resume'
 import Contacts from './Contacts'
 import Footer from './Footer'
+import {Spring} from 'react-spring/renderprops'
 
 const WindowContainer = () => {
     const aboutRef = useRef()
@@ -21,19 +22,26 @@ const WindowContainer = () => {
     return(
         <div id='containerDiv'>
             <div id='windowDiv'>
+            <Spring
+                from={{opacity: 0, marginLeft: -500}}
+                to={{opacity:1, marginLeft: 0}}
+                config={{duration: 1200}}
+            >
+            { props => (
                 <div id='menuDiv'>
-                    <button className='menu-btn' onClick={() => aboutRef.current.scrollIntoView({ behavior: 'smooth' })}>about</button>
-                    <button className='menu-btn' onClick={() => skillsRef.current.scrollIntoView({ behavior: 'smooth' })}>skills</button>
-                    <button className='menu-btn' onClick={() => projectsRef.current.scrollIntoView({ behavior: 'smooth' })}>projects</button>
-                    <button className='menu-btn' onClick={() => blogRef.current.scrollIntoView({ behavior: 'smooth' })}>blog</button>
-                    <button className='menu-btn' onClick={() => resumeRef.current.scrollIntoView({ behavior: 'smooth' })}>resume</button>
-                    <button className='menu-btn' onClick={() => contactsRef.current.scrollIntoView({ behavior: 'smooth' })}>contacts</button>
+                    <button style={props} className='menu-btn' onClick={() => aboutRef.current.scrollIntoView({ behavior: 'smooth' })}>about</button>
+                    <button style={props} className='menu-btn' onClick={() => skillsRef.current.scrollIntoView({ behavior: 'smooth' })}>skills</button>
+                    <button style={props} className='menu-btn' onClick={() => projectsRef.current.scrollIntoView({ behavior: 'smooth' })}>projects</button>
+                    <button style={props} className='menu-btn' onClick={() => blogRef.current.scrollIntoView({ behavior: 'smooth' })}>blog</button>
+                    <button style={props} className='menu-btn' onClick={() => resumeRef.current.scrollIntoView({ behavior: 'smooth' })}>resume</button>
+                    <button style={props} className='menu-btn' onClick={() => contactsRef.current.scrollIntoView({ behavior: 'smooth' })}>contacts</button>
                 </div>
+            )}
+            </Spring>
                 <div id='contentDiv'>
                     <div id='introDiv'>
                             <h1 id='claudiaborghiniTitle'>CLAUDIA BORGHINI</h1>
-                            <p className='helloWorldP'>Welcome to my world!</p>
-                            <h3>I'm a software engineer, specialized in building exceptional websites, applications, and everything in between.</h3>
+                            <p className='textP'>I'm a passionate software engineer, specialized in building websites, applications, and everything in between.</p>
                     </div>
                     <div  id='displayDiv'>   
                         <div ref={aboutRef}><About /></div>

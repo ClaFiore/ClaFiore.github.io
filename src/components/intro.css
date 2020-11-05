@@ -1,4 +1,12 @@
 #claudiaborghiniTitle{
-    font-size: 150px;
+    margin-top: 25%;
+    font-size: 80px;
     font-weight: 700;
 }
+
+
+.textP{
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: 500;
+  }
