@@ -8,21 +8,23 @@ const TableFinder = () => {
 
     return(
         <div className='singleProjOuterDiv'>
-            <div className='singleProjUpperDiv'>
-                    <div className='singleProjTitleDiv'>
-                            <h3 onClick={() => setShow(!show)} className='projectTitle'>TABLEFINDER</h3>
-                            <p>TableFinder is a web application that allows users to browse restaurants in their location, or the location of their choice. They can filter restaurants by cuisine, and sort the results by price range or rating.</p>
+            
+                    <h3 onClick={() => setShow(!show)} className='projectTitle'>TABLEFINDER</h3>
+                        
+                        <div className='singleProjImgDiv'>
+                            <img src={tablefinder} className='singleProjImg'/>
+                            <div className="overlay">
+                                <a href="https://www.youtube.com/watch?v=3jys7rMQ0io&feature=youtu.be" target="_blank" rel="noopener noreferrer"  className='icon'>
+                                    <i className="fa fa-youtube fa-4x"></i>
+                                </a>
+                            </div>
+                        </div>
+                    
+                    <div className='singleProjLang'>
+                        <p>TableFinder is a web application that allows users to browse restaurants in their location, or the location of their choice. They can filter restaurants by cuisine, and sort the results by price range or rating.</p>
                     </div>
                     
-                    <div className='singleProjImgDiv'>
-                        <img src={tablefinder} className='singleProjImg'/>
-                        <div className="overlay">
-                            <a href="https://www.youtube.com/watch?v=3jys7rMQ0io&feature=youtu.be" target="_blank" rel="noopener noreferrer"  className='icon'>
-                                <i className="fa fa-youtube fa-4x"></i>
-                            </a>
-                        </div>
-                    </div>
-            </div>
+            
             {show ? 
                 <div>
                     <p>With authentication and authorization, only users who are logged in can make a reservation, they can indicate their party size, and select a time. TableFinder will then show the user the available time slots for the selected restaurants, so the user can proceed with the reservation.</p>

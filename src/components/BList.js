@@ -8,11 +8,8 @@ const BList = () => {
 
     return(
         <div className='singleProjOuterDiv'>
-            <div className='singleProjUpperDiv'>
-                    <div className='singleProjTitleDiv'>
-                            <h3 onClick={() => setShow(!show)} className='projectTitle'>THE B LIST</h3>
-                            <p>With 'The B List' users can browse and sort all the handbags available, they can select and rent them from other users. Additionally, a user can list their own bags.</p>    
-                    </div>
+
+                    <h3 onClick={() => setShow(!show)} className='projectTitle'>THE B LIST</h3>
                     
                     <div className='singleProjImgDiv'>
                         <img src={rentabag} className='singleProjImg'/>
@@ -22,7 +19,11 @@ const BList = () => {
                             </a>
                         </div>
                     </div>
-            </div>
+
+                    <div className='singleProjLang'>
+                            <p>With 'The B List' users can browse and sort all the handbags available, they can select and rent them from other users. Additionally, a user can list their own bags.</p>    
+                    </div>
+            
             
             {show ? 
                 <div>

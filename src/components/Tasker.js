@@ -8,11 +8,9 @@ const Tasker = () => {
 
     return(
         <div className='singleProjOuterDiv'>
-            <div className='singleProjUpperDiv'>
-                    <div className='singleProjTitleDiv'>
-                            <h3 onClick={() => setShow(!show)} className='projectTitle'>TASKER</h3>
-                            <p>Tasker is a work-management platform designed for teams to manage their work.</p>
-                    </div>
+            
+                    <h3 onClick={() => setShow(!show)} className='projectTitle'>TASKER</h3>
+
                     
                     <div className='singleProjImgDiv'>
                         <img src={tasker} className='singleProjImg'/>
@@ -22,7 +20,10 @@ const Tasker = () => {
                             </a>
                         </div>
                     </div>
-            </div>
+
+                    <div className='singleProjLang'>
+                            <p>Tasker is a work-management platform designed for teams to manage their work.</p>
+                    </div>
 
             {show ? 
             <div>
