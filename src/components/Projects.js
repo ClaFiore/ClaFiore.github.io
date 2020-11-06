@@ -7,11 +7,11 @@ const Projects = () => {
     return (
         <div>
             <h1>PROJECTS</h1>
-            <ul>
-                <li className='projli'><Tasker /></li>
-                <li className='projli'><TableFinder /></li>
-                <li className='projli'><BList /></li>
-            </ul>
+            <div className='projectsContainerDiv'>
+                <Tasker />
+                <TableFinder />
+                <BList />
+            </div>
         </div>
     )
 }

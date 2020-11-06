@@ -1,3 +1,8 @@
+.projectsContainerDiv{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .projectTitle{
     cursor: pointer;
 }
