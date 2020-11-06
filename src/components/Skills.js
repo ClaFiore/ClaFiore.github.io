@@ -1,15 +1,16 @@
 import React from 'react'
+import './skills.css'
 
-import About from './About'
-import Projects from './Projects'
-import Blog from './Blog'
-import Resume from './Resume'
-import Contacts from './Contacts'
-
-const Skills = (props) => {
+const Skills = () => {
     return(
         <div>
-            MY SKILLS
+            <h1>MY SKILLS</h1>
+            <div id='skillsContainerDiv'>
+                <i class="fa fa-react"></i>
+                <i class="fa fa-js-square"></i>
+                <i class="fa fa-html5"></i>
+                <i class="fa fa-css3-alt"></i>
+            </div>
         </div>
     )
 }
