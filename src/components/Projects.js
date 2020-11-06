@@ -8,9 +8,9 @@ const Projects = () => {
         <div>
             <h1>PROJECTS</h1>
             <ul>
-                <li><Tasker /></li>
-                <li><TableFinder /></li>
-                <li><BList /></li>
+                <li className='projli'><Tasker /></li>
+                <li className='projli'><TableFinder /></li>
+                <li className='projli'><BList /></li>
             </ul>
         </div>
     )
