@@ -2,14 +2,53 @@
     margin-top: 20%;
     font-size: 80px;
     font-weight: 700;
+    overflow:hidden;
 }
 
-
-.textP{
+/* SLIDE IN FROM RIGHT  */
+/* .textP{
     font-family: monospace;
     font-size: 30px;
     font-weight: 500;
+    animation: 3s slidein;
   }
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  } */
+
+/* TYPEWRITER OPTION 1 */
+  .textP{
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);  
+  }
+
+  .anim-typewriter{
+    animation: typewriter 8s steps(800) 1s 1 normal both,
+               blinkTextCursor 8s steps(800) infinite normal;
+  }
+  @keyframes typewriter{
+    from{width: 0;}
+    to{width: 100%;}
+  }
+  @keyframes blinkTextCursor{
+    from{border-right-color: rgba(255,255,255,.75);}
+    to{border-right-color: transparent;}
+  }
+
 
   #socialIconsDiv{
       display: flex;

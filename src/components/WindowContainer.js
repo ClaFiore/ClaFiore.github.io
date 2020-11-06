@@ -57,7 +57,7 @@ const WindowContainer = () => {
                         </Spring>
                         <div>
                             <h1 id='claudiaborghiniTitle'>CLAUDIA BORGHINI</h1>
-                            <p className='textP'>I'm a passionate software engineer, specialized in building websites, applications, and everything in between.</p>
+                            <p className='textP anim-typewriter'>I'm a passionate software engineer, specialized in building websites, applications, and everything in between.</p>
                         </div>
                     </div>
                     <div  id='displayDiv'>   
