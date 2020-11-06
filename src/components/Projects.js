@@ -3,10 +3,25 @@ import React from 'react'
 const Projects = () => {
     return (
         <div>
-            PROJECTS
-            <p>
-                Italy (Italian: Italia), officially the Italian Republic is a country consisting of a peninsula delimited by the Alps and surrounded by several islands. Italy is located in south-central Europe,[17][18] and is considered part of western Europe.[19][20] A unitary parliamentary republic with Rome as its capital, the country covers a total area of 301,340 km2 (116,350 sq mi) and shares land borders with France, Switzerland, Austria, Slovenia, and the enclaved microstates of Vatican City and San Marino. Italy has a territorial enclave in Switzerland (Campione) and a maritime exclave in Tunisian waters (Lampedusa). With around 60 million inhabitants, Italy is the third-most populous member state of the European Union. Due to its central geographic location in Southern Europe and the Mediterranean, Italy has historically been home to myriad peoples and cultures. In addition to the various ancient peoples dispersed throughout what is now modern-day Italy, the most predominant being the Indo-European Italic peoples who gave the peninsula its name, beginning from the classical era, Phoenicians and Carthaginians founded colonies mostly in insular Italy,[21] Greeks established settlements in the so-called Magna Graecia of Southern Italy, while Etruscans and Celts inhabited central and northern Italy respectively. An Italic tribe known as the Latins formed the Roman Kingdom in the 8th century BC, which eventually became a republic with a government of the Senate and the People. The Roman Republic initially conquered and assimilated its neighbours on the Italian peninsula, eventually expanding and conquering parts of Europe, North Africa and Asia. By the first century BC, the Roman Empire emerged as the dominant power in the Mediterranean Basin and became a leading cultural, political and religious centre, inaugurating the Pax Romana, a period of more than 200 years during which Italy's law, technology, economy, art, and literature developed.[22][23] Italy remained the homeland of the Romans and the metropole of the empire, whose legacy can also be observed in the global distribution of culture, governments, Christianity and the Latin script.
-            </p>
+            <h1>PROJECTS</h1>
+            <ul>
+                <li>
+                    <h3>TASKER:</h3>
+                    <p>Tasker is a web application built on Ruby on Rails (backend) and React, Hooks and Redux (frontend).</p>
+                    <p>Tasker is a work-management platform designed for teams to manage their work. This application is built around the idea of a standard management structure, where each team has one manager who oversees several team members. That manager is also part of another team as a member.</p>
+                    <p>With Tasker employees can login and view their dashboard. They can organize their own work by creating tasks, edit the time, mark them as completed or still in progress. The employees can view the projects that their team has been assigned to. They can also view what their team members are currently working on. On their calendar they can filter their tasks by priority and by the projects they are associated with. Furthermore, they can review their information and update them.</p>
+                    <p>Additionally, employees who are also managers can switch to the manager view and view the activities of the team members they manage. They can assign work to them and send notifications. They can also create new projects for the team they manage, mark them as complete, edit or delete them.</p>
+                    <ul>
+                        <li>CSS Framework: React Bootstrap + vanilla css</li>
+                            <li>API: FullCalendar.io</li>
+                            <li>Full CRUD on projects and tasks; read and update on user/employee</li>
+                            <li>Technologies/Libraries/Gems: Redux, Hooks, bcrypt and password_digest, JWT Token, conditional rendering</li>
+                            <li>Github Backend: https://github.com/ClaFiore/Tasker-Backend</li>
+                            <li>Github Frontend: https://github.com/ClaFiore/Tasker-Frontend</li>
+                            <li>Demo: https://www.youtube.com/watch?v=YKjEj7KHwyA&feature=youtu.be</li>
+                    </ul>
+                </li>
+            </ul>
         </div>
     )
 }
