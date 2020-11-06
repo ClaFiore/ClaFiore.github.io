@@ -6,7 +6,7 @@
 }
 
 /* SLIDE IN FROM RIGHT  */
-/* .textP{
+.textP{
     font-family: monospace;
     font-size: 30px;
     font-weight: 500;
@@ -23,10 +23,10 @@
       margin-left: 0%;
       width: 100%;
     }
-  } */
+  }
 
 /* TYPEWRITER OPTION 1 */
-  .textP{
+  /* .textP{
     font-family: monospace;
     font-size: 16px;
     font-weight: 500;
@@ -47,7 +47,7 @@
   @keyframes blinkTextCursor{
     from{border-right-color: rgba(255,255,255,.75);}
     to{border-right-color: transparent;}
-  }
+  } */
 
 
   #socialIconsDiv{
