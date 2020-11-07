@@ -28,8 +28,8 @@
   }
   
   #claImg{
-      max-width:80%;
-      max-height:80%;
+      max-width:70%;
+      max-height:70%;
       vertical-align: middle;
       border-radius: 5%;
   }
@@ -40,6 +40,11 @@
       flex-wrap: wrap;
       justify-content: space-evenly;
       /* border: 1px white solid; */
+  }
+
+  .school{
+      color: white;
+      text-decoration: underline;
   }
 
   
@@ -57,10 +62,11 @@
     
     .facts{
         line-height: 1;
+        font-size: 90%;
     }
                 
     
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
     #innerAbout{
         top: 10%;
         flex-direction: column;
