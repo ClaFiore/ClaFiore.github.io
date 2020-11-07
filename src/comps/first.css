@@ -1,0 +1,14 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    line-height: 1.6;
+  }
+
+#one{
+    background-color: #00001a;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+

@@ -1,11 +1,11 @@
 import React from 'react'
 import './App.css';
-import WindowContainer from './components/WindowContainer'
+import FirstContainer from './comps/FirstContainer';
 
 function App() {
   return (
     <div>
-      <WindowContainer />
+      <FirstContainer />
     </div>
   );
 }
