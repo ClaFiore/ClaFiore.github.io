@@ -1,59 +1,53 @@
 #claudiaborghiniTitle{
     margin-top: 20%;
-    font-size: 80px;
+    font-size: 400%;
     font-weight: 700;
     overflow:hidden;
 }
 
 /* SLIDE IN FROM RIGHT  */
 .textP{
+  font-family: monospace;
+  font-size: 200%;
+  font-weight: 500;
+  animation: 3s slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+  
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    #claudiaborghiniTitle {
+      font-size: 1.8em;
+      padding: 0;
+      margin-top: 25%;
+    }
+    .textP{
     font-family: monospace;
-    font-size: 30px;
+    font-size: 1em;
     font-weight: 500;
     animation: 3s slidein;
-  }
-
-  @keyframes slidein {
-    from {
-      margin-left: 100%;
-      width: 300%; 
     }
-  
-    to {
-      margin-left: 0%;
-      width: 100%;
-    }
-  }
 
-/* TYPEWRITER OPTION 1 */
-  /* .textP{
-    font-family: monospace;
-    font-size: 16px;
-    font-weight: 500;
-    position: relative;
-    white-space: nowrap;
-    overflow: hidden;
-    transform: translateY(-50%);  
-  }
-
-  .anim-typewriter{
-    animation: typewriter 8s steps(800) 1s 1 normal both,
-               blinkTextCursor 8s steps(800) infinite normal;
-  }
-  @keyframes typewriter{
-    from{width: 0;}
-    to{width: 100%;}
-  }
-  @keyframes blinkTextCursor{
-    from{border-right-color: rgba(255,255,255,.75);}
-    to{border-right-color: transparent;}
-  } */
-
+}
 
   #socialIconsDiv{
       display: flex;
       flex-direction: row;
       justify-content: flex-end;
+      padding-right: 3%;
   }
 
   .fa-medium{

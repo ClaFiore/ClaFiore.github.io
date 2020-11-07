@@ -1,22 +1,38 @@
   #aboutDiv{
     display: flex;
+    flex-wrap: wrap;
+  }
+
+  @media only screen and (max-width: 600px){
+    #aboutDiv{
+      flex-direction: column-reverse;
+      flex-wrap: wrap;
+    }
   }
 
   #contentAboutDiv{
-    flex-basis: 65%;
+    flex-basis: 70%;
     text-align: justify;
     margin-right: 5%;
   }
 
 
   #claimgDiv{
-    flex-basis: 30%;
+    flex-basis: 25%;
     overflow: hidden;
     border-radius: 5%;
   }
-
+  
   #claImg{
-    max-width:100%;
-    max-height:100%;
-    vertical-align: middle;
+      max-width:100%;
+      max-height:100%;
+      vertical-align: middle;
+  }
+
+  @media only screen and (max-width: 600px){
+    #claimgDiv{
+      height: 40%;
+      overflow: hidden;
+      border-radius: 5%;
+    }
   }
