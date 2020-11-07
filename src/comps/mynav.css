@@ -1,8 +1,8 @@
 #nav{
   display: flex;
   justify-content: space-between;
-  padding-left: 2%;
-  padding-right: 2%;
+  height: 15%;
+  padding: 1%;
 }
 
 
@@ -76,6 +76,7 @@
     right: 0;
     top: 100%;
     z-index: -1;
+    transition: top 0.09s ease-in;
     -webkit-transition: top 0.09s ease-in;
   }
   

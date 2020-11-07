@@ -1,8 +1,9 @@
 import React from 'react'
+import './footer.css'
 
 const Myfooter = (props) => {
     return(
-        <div>
+        <div id='footer'>
             BOTTOM FOOTER
         </div>
     )
