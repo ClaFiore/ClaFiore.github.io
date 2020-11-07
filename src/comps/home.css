@@ -1,12 +1,12 @@
 #home{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
+    overflow: auto;
 }
 
 #claudiaborghini{
-
     font-size: 600%;
     font-weight: 700;
     overflow-wrap: normal;

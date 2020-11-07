@@ -1,6 +1,7 @@
 #main{
     display: block;
     height: 75%;
-    /* border: 3px white solid; */
+    /* border: 3px green solid; */
     padding: 1%;
+    /* overflow: auto; */
 }
