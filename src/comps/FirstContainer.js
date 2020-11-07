@@ -5,11 +5,13 @@ import Main from './Main'
 import Myfooter from './Myfooter'
 
 
-const FirstContainer = () => {
+const FirstContainer = (props) => {
+    const [menu, setMenu] = useState('home')
+
     return(
         <div id='one'>
-            <Mynavbar />
-            <Main />
+            <Mynavbar setMenu={setMenu} menu={menu}/>
+            <Main menu={menu}/>
             <Myfooter />
         </div>
     )
