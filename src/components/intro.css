@@ -43,37 +43,5 @@
 
 }
 
-  #socialIconsDiv{
-      display: flex;
-      flex-direction: row;
-      justify-content: flex-end;
-      padding-right: 3%;
-  }
 
-  .fa-medium{
-    color: white;
-  }
-
-  .fa-github{
-    color: white;
-  }
-
-  .fa-linkedin {
-    color: white;
-  }
-
-  .fa {
-    padding: 10px;
-    font-size: 20px;
-    width: 20px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 50%;
-  }
-  
-  .fa:hover {
-      opacity: 0.7;
-      cursor: pointer;
-  }
   
