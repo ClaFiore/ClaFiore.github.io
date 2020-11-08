@@ -1,0 +1,30 @@
+#cardsContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: auto;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.cardDiv{
+    width: 25%;
+    height: 25%;
+    border: 1px white solid;
+    margin: 1%;
+    /* overflow: hidden; */
+}
+
+.cardTitle{
+    color: #00001a;
+    background-color: white;
+    height: 80%;
+}
+
+.cardBody{
+    padding: 1%;
+}
+
+.published{
+    font-size: 70%;
+}
