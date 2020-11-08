@@ -4,12 +4,11 @@ import Button from 'react-bootstrap/Button'
 
 const Tasker = (props) => {
 
-  
-  
-
-  return (
-    <div>TASKER INFO</div>
-  );
+   return(
+       <div>
+           TASKER
+       </div>
+   )
 }
 
 export default Tasker

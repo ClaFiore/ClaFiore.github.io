@@ -7,14 +7,14 @@ import Blist from './projects/Blist'
 
 const ProjHome = props => {
 
-const [projectDisplay, setProjectDisplay] = useState('all')
+// const [projectDisplay, setProjectDisplay] = useState('all')
 
     return(
         <div id='projhome'>
-            {projectDisplay === 'all' ? <Projects setProjectDisplay={setProjectDisplay}/> : null}
-            {projectDisplay === 'tasker' ? <Tasker /> : null}
-            {projectDisplay === 'tablefinder' ? <Tablefinder /> : null}
-            {projectDisplay === 'blist' ? <Blist /> : null}
+            {props.projectDisplay === 'all' ? <Projects setProjectDisplay={props.setProjectDisplay}/> : null}
+            {props.projectDisplay === 'tasker' ? <Tasker /> : null}
+            {props.projectDisplay === 'tablefinder' ? <Tablefinder /> : null}
+            {props.projectDisplay === 'blist' ? <Blist /> : null}
         </div>
     )
 }

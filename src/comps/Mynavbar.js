@@ -7,6 +7,10 @@ import './mynav.css'
 
 const Mynavbar = (props) => {
 
+    const handleClickProjects = () => {
+        props.setMenu('projects')
+        props.setProjectDisplay('all')
+    }
 
     return(
         <div>
@@ -21,7 +25,7 @@ const Mynavbar = (props) => {
                             <div id='menuDiv'>
                                 <button style={cssprops} className='menu-btn' onClick={() => props.setMenu('home')}>home</button>
                                 <button style={cssprops} className='menu-btn' onClick={() => props.setMenu('about')}>about</button>
-                                <button style={cssprops} className='menu-btn' onClick={() => props.setMenu('projects')}>projects</button>
+                                <button style={cssprops} className='menu-btn' onClick={() => handleClickProjects()}>projects</button>
                                 <button style={cssprops} className='menu-btn' onClick={() => props.setMenu('blogs')}>blog</button>
                             </div>
                             )}
