@@ -12,26 +12,26 @@ const Tablefinder = (props) => {
 
         <div className='projContent2'>
              <div className='projDescription3'>
-                 <p>Tasker is a work-management platform designed for teams to manage their work. This application is built around the idea of a standard management structure, where each team has one manager who oversees several team members. That manager is also part of another team as a member.</p>
-                 <p>With Tasker employees can login and view their dashboard. They can organize their own work by creating tasks, edit the time, mark them as completed or still in progress. The employees can view the projects that their team has been assigned to. They can also view what their team members are currently working on. On their calendar they can filter their tasks by priority and by the projects they are associated with. Furthermore, they can review their information and update them.</p>
-                 <p>Additionally, employees who are also managers can switch to the manager view and view the activities of the team members they manage. They can assign work to them and send notifications. They can also create new projects for the team they manage, mark them as complete, edit or delete them.</p>
-                 <p>I built the Tasker web application using Ruby on Rails for my backend and React, Hooks and Redux for the frontend.</p>
+                 <p>TableFinder is a web application that allows users to browse restaurants in their location, or the location of their choice. They can filter restaurants by cuisine, and sort the results by price range or rating.</p>
+                 <p>With authentication and authorization, only users who are logged in can make a reservation, they can indicate their party size, and select a time. TableFinder will then show the user the available time slots for the selected restaurants, so the user can proceed with the reservation.</p>
+                 <p>I built TableFinder with a partner, through pair-programming, during our time at Flatiron School. We used Ruby on Rails for our backend and React for the frontend.</p>
              </div>
              <div className='projFacts4'>
                  <div className='projTechnologies5'>
                      <p>Technologies/Libraries/Gems: </p>
                      <ul>
-                     <li>CSS Framework: React Bootstrap + vanilla css</li>
-                     <li>API: FullCalendar.io</li>
-                     <li>Full CRUD on projects and tasks; read and update on user/employee</li>
-                     <li>Redux, Hooks, bcrypt and password_digest, JWT Token, conditional rendering</li>
+                     <li>CSS Framework: Semantic UI and vanilla css</li>
+                     <li>API: Google Maps, and Zomato for restaurants data</li>
+                     <li>CRUD actions on the user; read and destroy for reservations, read for restaurants info</li>
+                     <li>React class and functional components, State and Hooks</li>
+                     <li>Authentication and Authorization with bcrypt and password_digest, JWT Token</li>
                      </ul>
                  </div>
                  <div className='projLinks6'>
                      <p>Find my work here: </p>
-                     <li>Github Backend: https://github.com/ClaFiore/Tasker-Backend</li>
-                     <li>Github Frontend: https://github.com/ClaFiore/Tasker-Frontend</li>
-                     <li>Demo: https://www.youtube.com/watch?v=YKjEj7KHwyA&feature=youtu.be</li>
+                     <li>Github Backend: </li>
+                     <li>Github Frontend: </li>
+                     <li>Demo: </li>
                  </div>
              </div>
         </div>
@@ -40,3 +40,6 @@ const Tablefinder = (props) => {
 }
 
 export default Tablefinder
+
+
+
