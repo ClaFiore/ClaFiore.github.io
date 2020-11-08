@@ -106,7 +106,7 @@
   .fa-youtube{
     color: white;
   }
-  
+
   .fa-youtube:hover {
     color: red;
   }
@@ -121,6 +121,12 @@
     .projCards{
       margin-bottom: 5%;
       width: 80%;
+    }
+    .fa-youtube:hover {
+      color: white;
+    }
+    .mb-2 {
+      font-size: 80%;
     }
   }
 
