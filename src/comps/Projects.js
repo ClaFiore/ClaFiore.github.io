@@ -27,7 +27,7 @@ const Projects = () => {
                 <Card.Body>
                     <Card.Title>Tasker</Card.Title>
                     <Card.Subtitle className="mb-2 text-muted">React, Hooks, Redux, Ruby on Rails</Card.Subtitle>
-                    <Card.Link><i className="fa fa-youtube fa-3x"></i></Card.Link>
+                    <Card.Link href="https://www.youtube.com/watch?v=YKjEj7KHwyA&feature=youtu.be" target="_blank" rel="noopener noreferrer"><i className="fa fa-youtube fa-3x"></i></Card.Link>
                     <Card.Link><i className="fa fa-github fa-3x"></i></Card.Link>
 
                 </Card.Body>
@@ -45,7 +45,7 @@ const Projects = () => {
                     <Card.Title>TableFinder</Card.Title>
                     <Card.Subtitle className="mb-2 text-muted">React, Hooks, Redux, Ruby on Rails</Card.Subtitle>
                     
-                    <Card.Link><i className="fa fa-youtube fa-3x"></i></Card.Link>
+                    <Card.Link href="https://www.youtube.com/watch?v=3jys7rMQ0io&feature=youtu.be" target="_blank" rel="noopener noreferrer" ><i className="fa fa-youtube fa-3x"></i></Card.Link>
                     <Card.Link><i className="fa fa-github fa-3x"></i></Card.Link>
 
                 </Card.Body>
@@ -62,7 +62,7 @@ const Projects = () => {
                 <Card.Body>
                     <Card.Title>The B List</Card.Title>
                     <Card.Subtitle className="mb-2 text-muted">Vanilla Javascript, Ruby on Rails</Card.Subtitle>
-                    <Card.Link><i className="fa fa-youtube fa-3x"></i></Card.Link>
+                    <Card.Link href="https://www.youtube.com/watch?v=SXgqQyT7wz8&feature=youtu.be" target="_blank" rel="noopener noreferrer"><i className="fa fa-youtube fa-3x"></i></Card.Link>
                     <Card.Link><i className="fa fa-github fa-3x"></i></Card.Link>
 
                 </Card.Body>

@@ -103,6 +103,9 @@
   backface-visibility: hidden;
 }
 
+  .fa-youtube{
+    color: white;
+  }
   
   .fa-youtube:hover {
     color: red;
