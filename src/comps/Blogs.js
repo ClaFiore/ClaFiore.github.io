@@ -1,9 +1,14 @@
 import React from 'react'
+import Allblogs from './blogs/Allblogs'
+import Oneblog from './blogs/Oneblog'
 
 const Blogs = (props) => {
+
+    
     return(
         <div>
-            BLOGS
+            {props.readblog === 'all' ? <Allblogs />
+            : <Oneblog />}
         </div>
     )
 }

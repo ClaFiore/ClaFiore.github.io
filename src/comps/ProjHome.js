@@ -7,7 +7,7 @@ import Blist from './projects/Blist'
 
 const ProjHome = props => {
 
-// const [projectDisplay, setProjectDisplay] = useState('all')
+
 
     return(
         <div id='projhome'>

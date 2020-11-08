@@ -12,6 +12,11 @@ const Mynavbar = (props) => {
         props.setProjectDisplay('all')
     }
 
+    const handleClickBlogs = () => {
+        props.setMenu('blogs')
+        props.setReadblog('all')
+    }
+
     return(
         <div>
             <Navbar id='nav'>
@@ -26,7 +31,7 @@ const Mynavbar = (props) => {
                                 <button style={cssprops} className='menu-btn' onClick={() => props.setMenu('home')}>home</button>
                                 <button style={cssprops} className='menu-btn' onClick={() => props.setMenu('about')}>about</button>
                                 <button style={cssprops} className='menu-btn' onClick={() => handleClickProjects()}>projects</button>
-                                <button style={cssprops} className='menu-btn' onClick={() => props.setMenu('blogs')}>blog</button>
+                                <button style={cssprops} className='menu-btn' onClick={() => handleClickBlogs()}>blog</button>
                             </div>
                             )}
                 </Spring>

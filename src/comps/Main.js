@@ -10,7 +10,10 @@ const Main = (props) => {
 
     return(
         <div id='main'>
-            {props.menu === 'about' ? <About /> : props.menu === 'projects' ? <ProjHome projectDisplay={props.projectDisplay} setProjectDisplay={props.setProjectDisplay}/> : props.menu === 'blogs' ? <Blogs /> : <Home />}  
+            {props.menu === 'about' ? <About /> 
+            : props.menu === 'projects' ? <ProjHome projectDisplay={props.projectDisplay} setProjectDisplay={props.setProjectDisplay}/> 
+            : props.menu === 'blogs' ? <Blogs readblog={props.readblog} setReadblog={props.setReadblog}/> 
+            : <Home />}  
         </div>
     )
 }
