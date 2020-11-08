@@ -5,11 +5,8 @@ import tablefinderpng from '../images/tablefinder.png'
 import blistpng from '../images/rentabag.png'
 import './projects.css'
 
-const Projects = () => {
 
-    const [tasker, setTasker] = useState(false)
-    const [tablefinder, setTablefinder] = useState(false)
-    const [blist, setBlist] = useState(false)
+const Projects = (props) => {
 
     return(
         <div id='projects'>
@@ -18,7 +15,7 @@ const Projects = () => {
             </h1>
         <div id='innerProjects'>
             <Card className='projCards'>
-                <div className='singleProjImgDiv'>
+                <div className='singleProjImgDiv' onClick={() => props.setProjectDisplay('tasker')}>
                 <Card.Img className='cardImg' src={taskerpng} />
                         <div className="middle">
                             <p className="titleonimage">TASKER</p>
@@ -35,7 +32,7 @@ const Projects = () => {
 
 
             <Card className='projCards'>
-                <div className='singleProjImgDiv'>
+                <div className='singleProjImgDiv' onClick={() => props.setProjectDisplay('tablefinder')}>
                 <Card.Img className='cardImg' variant="top" src={tablefinderpng} />
                         <div className="middle">
                             <p className="titleonimage">TABLEFINDER</p>
@@ -53,7 +50,7 @@ const Projects = () => {
 
 
             <Card className='projCards'>
-                <div className='singleProjImgDiv'>
+                <div className='singleProjImgDiv' onClick={() => props.setProjectDisplay('blist')}>
                 <Card.Img className='cardImg' variant="top" src={blistpng} />
                         <div className="middle">
                             <p className="titleonimage">THE B LIST</p>
@@ -68,6 +65,7 @@ const Projects = () => {
                 </Card.Body>
             </Card>
         </div>
+       
     </div>
     )
 }
