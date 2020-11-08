@@ -16,8 +16,7 @@
 .projCards{
   border: 1px white solid;
   text-align: center;
-    /* background-color: white;
-    color: #00001a; */
+
     min-height: min-content;
     width: 30%;
     animation: slide-up-fade-in ease 1s;

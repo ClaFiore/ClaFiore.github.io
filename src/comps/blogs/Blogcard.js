@@ -7,20 +7,12 @@ const Blogcard = props => {
     let date = new Date(props.blogcard.pubDate)
     let published = date.toDateString()
 
-
-
-
     return(
         <div className='cardDiv'>
-            <Card >
-                <Card.Title className='cardTitle'>{props.blogcard.title}</Card.Title>
-                <Card.Body className='cardBody'>
-                    <Card.Subtitle className="published">{published}</Card.Subtitle>
-                    <Card.Text>
-                        Content here
-                    </Card.Text>
-                </Card.Body>
-            </Card>
+            <h3 className='cardTitle'>{props.blogcard.title}</h3>
+            <p className='publishedDate' >{published}</p>
+            <p className='blogContent' >{props.blogcard.content}</p>
+            <button className='readMoreBtn' >read post</button>
         </div>
     )
 }
