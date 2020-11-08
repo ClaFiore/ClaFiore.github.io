@@ -2,19 +2,20 @@
   display: flex;
   flex-direction: column;
   overflow: auto;
+  /* border: 2px solid yellow; */
 }
 
 #innerProjects{
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
-    height: 100%;
-    overflow: auto;
+    align-items: flex-start;
+    min-height: min-content;
+    /* border: 2px solid red; */
 }
 
-
-
 .projCards{
+  min-height: min-content;
+    padding-top: 5%;
     width: 30%;
     animation: slide-up-fade-in ease 1s;
     animation-iteration-count: 1;
@@ -104,6 +105,7 @@
   @media only screen and (max-width: 768px) {
     #innerProjects{
       flex-direction: column;
+      align-items: center;
     }
     .fa-4x{
       font-size: 100%;
@@ -111,4 +113,12 @@
     .icon {    
       left: 50%;
     }
+    .projCards{
+      width: 80%;
+    }
   }
+
+.learnmore{
+  text-decoration: underline;
+  cursor: pointer;
+}
