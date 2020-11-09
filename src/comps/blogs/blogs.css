@@ -1,4 +1,4 @@
-#cardsContainer{
+#blogsContainer{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -8,29 +8,52 @@
 .cardDiv{
     display: flex;
     flex-direction: column;
-    width: 26%;
-    margin: 1%;
-    min-height: 30%;
-    border: white 1px solid;
+    margin: 2%;
+    border: 1px solid white;
+    width: 30%;
 }
 
 .cardTitle{
-    padding: 1%;
     background-color: white;
     color: #00001a;
     margin: 0;
+    padding: 1%;
 }
 
 .publishedDate{
-    padding: 1%;
-    font-size: 80%;
-}
-.blogContent{
-    padding: 1%;
-}
-.readMoreBtn{
-    padding: 1%;
     background-color: white;
     color: #00001a;
+    margin: 0;
+    font-size: 70%;
+    padding: 1%;
+}
+
+.blogContent{
+    padding: 1%;
+    height: 35vh;
+    overflow: hidden;
+}
+
+.readMoreBtn{
     border: none;
+    background-color: white;
+    color: #00001a;
+    font-size: 70%;
+    cursor: pointer;
+    text-decoration: underline;
+    padding: 2%;
+    text-align: center;
+}
+
+.cardDiv h4, p{
+    margin-top: 0;
+}
+
+.cardDiv p{
+    margin-bottom: 0.5em;
+}
+
+.cardDiv h4{
+    margin-bottom: 0.2em;
+    font-style: italic;
 }

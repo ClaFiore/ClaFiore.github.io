@@ -12,7 +12,7 @@ const Main = (props) => {
         <div id='main'>
             {props.menu === 'about' ? <About /> 
             : props.menu === 'projects' ? <ProjHome projectDisplay={props.projectDisplay} setProjectDisplay={props.setProjectDisplay}/> 
-            : props.menu === 'blogs' ? <Blogs readblog={props.readblog} setReadblog={props.setReadblog} fetchedBlogs={props.fetchedBlogs} articles={props.articles}/> 
+            : props.menu === 'blogs' ? <Blogs /> 
             : <Home />}  
         </div>
     )
