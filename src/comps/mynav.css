@@ -56,6 +56,7 @@
     #menuDiv{
       width: 100%;
       justify-content: center;
+      align-items: center;
     }
     #socialIconsDiv{
       width: 100%;
