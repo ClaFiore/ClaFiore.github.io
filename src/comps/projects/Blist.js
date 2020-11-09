@@ -24,9 +24,9 @@ const Blist = (props) => {
                  </div>
                  <div className='projLinks6'>
                      <p>Find my work here: </p>
-                     <a href='https://github.com/ClaFiore/rent-a-bag'>Github Backend</a>
-                     <a href='https://github.com/ClaFiore/rent-a-bag-frontend'>Github Frontend</a>
-                     <a href="https://www.youtube.com/watch?v=SXgqQyT7wz8&feature=youtu.be" target="_blank" rel="noopener noreferrer">Video Demo</a>
+                     <p><a className='projLink' href='https://github.com/ClaFiore/rent-a-bag'>Github Backend</a></p>
+                     <p><a className='projLink' href='https://github.com/ClaFiore/rent-a-bag-frontend'>Github Frontend</a></p>
+                     <p><a className='projLink' href="https://www.youtube.com/watch?v=SXgqQyT7wz8&feature=youtu.be" target="_blank" rel="noopener noreferrer">Video Demo</a></p>
                  </div>
              </div>
         </div>
