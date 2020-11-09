@@ -16,8 +16,8 @@
 
 /* SLIDE IN FROM RIGHT  */
 .text{
-  font-family: monospace;
-  font-size: 200%;
+  /* font-family: monospace; */
+  font-size: 180%;
   font-weight: 500;
   animation: 3s slidein;
   text-align: center;

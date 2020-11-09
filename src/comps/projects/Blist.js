@@ -15,18 +15,18 @@ const Blist = (props) => {
              </div>
              <div className='projFacts4'>
                  <div className='projTechnologies5'>
-                     <p>Technologies/Libraries/Gems: </p>
-                     <ul>
-                     <li>CSS: vanilla css</li>
-                     <li>JS: vanilla JavaScript</li>
-                     <li>Full CRUD actions on bags, users, and rented items</li>
-                     </ul>
+                     <h4>Technologies/Libraries/Gems: </h4>
+                    
+                     <p>CSS: vanilla css</p>
+                     <p>JS: vanilla JavaScript</p>
+                     <p>Full CRUD actions on bags, users, and rented items</p>
+              
                  </div>
                  <div className='projLinks6'>
-                     <p>Find my work here: </p>
+                 <h4>Find my work here: </h4>
+                     <p><a className='projLink' href="https://www.youtube.com/watch?v=SXgqQyT7wz8&feature=youtu.be" target="_blank" rel="noopener noreferrer">Video Demo</a></p>
                      <p><a className='projLink' href='https://github.com/ClaFiore/rent-a-bag'>Github Backend</a></p>
                      <p><a className='projLink' href='https://github.com/ClaFiore/rent-a-bag-frontend'>Github Frontend</a></p>
-                     <p><a className='projLink' href="https://www.youtube.com/watch?v=SXgqQyT7wz8&feature=youtu.be" target="_blank" rel="noopener noreferrer">Video Demo</a></p>
                  </div>
              </div>
         </div>

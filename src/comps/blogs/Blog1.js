@@ -6,7 +6,7 @@ const Blog1 = props => {
     return(
         <div className='cardDiv'>
             <h3 className='cardTitle'>The One-to-Many Relationship in Ruby</h3>
-            <p className='publishedDate'>Jul 23 2020</p>
+            <p className='publishedDate'><span><em>Claudia Borghini</em></span><span>Jul 23 2020</span></p>
             <div className='blogContent' >
                 <p>During my first week at Flatiron as a Software Engineering student, I was introduced to Object Oriented Programming, a very important topic, that can be a bit complicated for beginners.</p>
                 <p>I’d like to spend a few minutes explaining the One-to-Many relationship, with the hope that this article can help other new developers in the future.</p>

@@ -60,7 +60,9 @@
     font-style: italic;
 }
 
-
+.cardDiv span{
+    margin-left: 2%;
+}
 
 .cardDiv {
     animation: fadeIn ease 4s;

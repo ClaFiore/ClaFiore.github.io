@@ -16,19 +16,18 @@ const Tasker = (props) => {
                 </div>
                 <div className='projFacts4'>
                     <div className='projTechnologies5'>
-                        <p>Technologies/Libraries/Gems: </p>
-                        <ul>
-                        <li>CSS Framework: React Bootstrap + vanilla css</li>
-                        <li>API: FullCalendar.io</li>
-                        <li>Full CRUD on projects and tasks; read and update on user/employee</li>
-                        <li>Redux, Hooks, bcrypt and password_digest, JWT Token, conditional rendering</li>
-                        </ul>
+                    <h4>Technologies/Libraries/Gems: </h4>
+                        <p>API: FullCalendar.io</p>
+                        <p>CSS Framework: React Bootstrap + vanilla css</p>
+                        <p>Full CRUD on projects and tasks; read and update on user/employee</p>
+                        <p>Redux, Hooks, bcrypt and password_digest, JWT Token, conditional rendering</p>
+                        
                     </div>
                     <div className='projLinks6'>
-                        <p>Find my work here: </p>
+                        <h4>Find my work here: </h4>
+                         <p><a className='projLink' target="_blank" rel="noopener noreferrer" href='https://www.youtube.com/watch?v=YKjEj7KHwyA&feature=youtu.be'>Demo Video</a></p>
                          <p><a className='projLink' target="_blank" rel="noopener noreferrer" href='https://github.com/ClaFiore/Tasker-Backend'>Github Backend</a></p>
                          <p><a className='projLink' target="_blank" rel="noopener noreferrer" href='https://github.com/ClaFiore/Tasker-Frontend'>Github Frontend</a></p>
-                         <p><a className='projLink' target="_blank" rel="noopener noreferrer" href='https://www.youtube.com/watch?v=YKjEj7KHwyA&feature=youtu.be'>Demo Video</a></p>
                     </div>
                 </div>
            </div>

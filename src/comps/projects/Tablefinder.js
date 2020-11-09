@@ -18,20 +18,20 @@ const Tablefinder = (props) => {
              </div>
              <div className='projFacts4'>
                  <div className='projTechnologies5'>
-                     <p>Technologies/Libraries/Gems: </p>
-                     <ul>
-                     <li>CSS Framework: Semantic UI and vanilla css</li>
-                     <li>API: Google Maps, and Zomato for restaurants data</li>
-                     <li>CRUD actions on the user; read and destroy for reservations, read for restaurants info</li>
-                     <li>React class and functional components, State and Hooks</li>
-                     <li>Authentication and Authorization with bcrypt and password_digest, JWT Token</li>
-                     </ul>
+                 <h4>Technologies/Libraries/Gems: </h4>
+                     
+                     <p>CSS Framework: Semantic UI and vanilla css</p>
+                     <p>API: Google Maps, and Zomato for restaurants data</p>
+                     <p>React class and functional components, State and Hooks</p>
+                     <p>Authentication and Authorization with bcrypt and password_digest, JWT Token</p>
+                     <p>CRUD actions on the user; read and destroy for reservations, read for restaurants info</p>
+                     
                  </div>
                  <div className='projLinks6'>
-                     <p>Find my work here: </p>
+                    <h4>Find my work here: </h4>
+                     <p><a className='projLink' href="https://www.youtube.com/watch?v=3jys7rMQ0io&feature=youtu.be" target="_blank" rel="noopener noreferrer">Video Demo</a></p>
                      <p><a className='projLink' href='https://github.com/ClaFiore/Mod4BackEnd'>Github Backend</a></p>
                      <p><a className='projLink' href='https://github.com/ClaFiore/Mod4FrontEnd'>Github Frontend</a></p>
-                     <p><a className='projLink' href="https://www.youtube.com/watch?v=3jys7rMQ0io&feature=youtu.be" target="_blank" rel="noopener noreferrer">Video Demo</a></p>
                  </div>
              </div>
         </div>
