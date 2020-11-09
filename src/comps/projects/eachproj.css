@@ -50,11 +50,14 @@
     .projFacts4{
         flex-direction: column;
         align-items: center;
-    }
-    .projFacts4{
         text-align: center;
     }
+
     .projTechnologies5{
-        text-align: center;
+        width: 100%;
+    }
+    .projLinks6{
+        margin-top: 5%;
+        width: 100%;
     }
 }

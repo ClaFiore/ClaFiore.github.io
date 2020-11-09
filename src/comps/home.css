@@ -39,10 +39,10 @@
 
 @media only screen and (max-width: 768px) {
     #claudiaborghini{
-        font-size: 400%;
+        font-size: 300%;
     }
     .text{
-        font-size: 120%;
+        font-size: 100%;
         overflow: auto;
     }
 }
