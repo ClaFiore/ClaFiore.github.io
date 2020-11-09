@@ -11,6 +11,9 @@
     margin: 2%;
     border: 1px solid white;
     width: 30%;
+
+
+    
 }
 
 .cardTitle{
@@ -56,4 +59,49 @@
 .cardDiv h4{
     margin-bottom: 0.2em;
     font-style: italic;
+}
+
+
+
+.cardDiv {
+    animation: fadeIn ease 4s;
+    -webkit-animation: fadeIn ease 4s;
+    -moz-animation: fadeIn ease 4s;
+    -o-animation: fadeIn ease 4s;
+    -ms-animation: fadeIn ease 4s;
+    }
+    @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+
+@media only screen and (max-width: 768px) {
+    #blogsContainer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cardDiv{
+        width: 80%;
+    }
 }
