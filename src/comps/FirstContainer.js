@@ -8,7 +8,7 @@ import Myfooter from './Myfooter'
 const FirstContainer = (props) => {
     const [menu, setMenu] = useState('home')
     const [projectDisplay, setProjectDisplay] = useState('all')
-    const [readblog, setReadblog] = useState('all')
+    
 
     return(
         <div id='one'>

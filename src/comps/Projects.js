@@ -14,6 +14,7 @@ const Projects = (props) => {
                 PROJECTS
             </h1>
         <div id='innerProjects'>
+            
             <Card className='projCards'>
                 <div className='singleProjImgDiv' onClick={() => props.setProjectDisplay('tasker')}>
                 <Card.Img className='cardImg' src={taskerpng} />
