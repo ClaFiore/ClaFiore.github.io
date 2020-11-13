@@ -54,7 +54,7 @@ const Mynavbar = (props) => {
             >
             { cssprops => (
                 <div id='backbuttonProj'>
-                 {props.projectDisplay !== 'all' ? <button style={cssprops} className='menu-btn backBtn' onClick={() => handleClickProjects()}>Back to all projects</button> : null}
+                 {props.projectDisplay !== 'all' && props.menu === 'projects' ? <button style={cssprops} className='menu-btn backBtn' onClick={() => handleClickProjects()}>Back to all projects</button> : null}
                  </div>
             )}
             </Spring>

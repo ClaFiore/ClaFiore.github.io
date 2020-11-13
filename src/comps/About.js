@@ -1,16 +1,26 @@
 import React from 'react'
 import './about.css'
 import cla from '../images/cla.jpeg'
+import cla3 from '../images/cla3.jpeg'
+import cla4 from '../images/cla4.jpeg'
+import cla5 from '../images/cla5.jpeg'
+import cla2 from '../images/cla2.jpeg'
 
 const About = (props) => {
     return(
         <div id='about'>
             <h1>ABOUT</h1>
             <div id='innerAbout'>
-
+                
+                <div id='imagesDiv'>
                 <div id='claimgDiv'>
-                    <img src={cla} id='claImg'/>
+                    <img src={cla5} id='claImg'/>
                 </div>
+                <div id='claimgDiv'>
+                    <img src={cla2} id='claImg'/>
+                </div>
+                </div>
+
                 <div id='contentAboutDiv'>
                     <p>Hi there! I'm Claudia, a software engineer based in Boston, MA and Washington, DC.</p>
                     <p>Born and raised in Milan, Italy, I was fortunate to travel the world at a young age. The diversity of cultures and people that I came in contact with has shaped my passion for understanding new perspectives. 
@@ -22,11 +32,11 @@ const About = (props) => {
                         I then moved to Washington DC where I became involved with the Embassy of Italy and worked as Marketing and Events Coordinator at the Italian Cultural Society, to promote the Italian language and culture in the DC metro area and school systems.
                     </p>
                     <p>In 2020 I dedicated myself to the study of software engineering and programming. I am now prepared and eager to contribute to the technological innovation that I experienced with such wonder as a young girl. </p>
-                    <h3>MY TECHNICAL SKILLS:</h3>
-                    <p>Ruby, Rails</p>
-                    <p>HTML, CSS, Bootstrap, Semantic</p>
-                    <p>JavaScript, React, React Router, React Hooks, React Redux</p>
-                    <p>CRUD, API usage, Authentication and Authorization, JSON Web Token</p>
+                    <h2 style={{marginTop: '5%'}}>MY TECHNICAL SKILLS:</h2>
+                    <p className='facts'>Ruby, Rails</p>
+                    <p className='facts'>HTML, CSS, Bootstrap, Semantic</p>
+                    <p className='facts'>JavaScript, React, React Router, React Hooks, React Redux</p>
+                    <p className='facts'>CRUD, API usage, Authentication and Authorization, JSON Web Token</p>
                 </div>
 
             </div>
