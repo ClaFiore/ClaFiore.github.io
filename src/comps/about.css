@@ -78,6 +78,10 @@
       width: 25%;
   }
 
+  .facts{
+      margin-bottom: 0;
+  }
+
   #factsDiv{
     width: 100%;
     display: flex;

@@ -22,6 +22,11 @@ const About = (props) => {
                         I then moved to Washington DC where I became involved with the Embassy of Italy and worked as Marketing and Events Coordinator at the Italian Cultural Society, to promote the Italian language and culture in the DC metro area and school systems.
                     </p>
                     <p>In 2020 I dedicated myself to the study of software engineering and programming. I am now prepared and eager to contribute to the technological innovation that I experienced with such wonder as a young girl. </p>
+                    <h3>MY TECHNICAL SKILLS:</h3>
+                    <p>Ruby, Rails</p>
+                    <p>HTML, CSS, Bootstrap, Semantic</p>
+                    <p>JavaScript, React, React Router, React Hooks, React Redux</p>
+                    <p>CRUD, API usage, Authentication and Authorization, JSON Web Token</p>
                 </div>
 
             </div>
