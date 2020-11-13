@@ -14,7 +14,7 @@ const Mynavbar = (props) => {
 
 
     return(
-        <div>
+        <div id='greaterNavbarContainer'>
             <Navbar id='nav'>
 
                 <Spring             //social media icons
@@ -47,6 +47,17 @@ const Mynavbar = (props) => {
                 </Spring>
 
             </Navbar>
+            <Spring             //social media icons
+            from={{opacity: 0, marginLeft: -500}}
+            to={{opacity:1, marginLeft: 0}}
+            config={{duration: 1500}}
+            >
+            { cssprops => (
+                <div id='backbuttonProj'>
+                 {props.projectDisplay !== 'all' ? <button style={cssprops} className='menu-btn backBtn' onClick={() => handleClickProjects()}>Back to all projects</button> : null}
+                 </div>
+            )}
+            </Spring>
         </div>
     )
 }

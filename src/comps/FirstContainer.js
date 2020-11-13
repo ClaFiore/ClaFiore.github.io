@@ -12,7 +12,7 @@ const FirstContainer = (props) => {
 
     return(
         <div id='one'>
-            <Mynavbar setMenu={setMenu} menu={menu} setProjectDisplay={setProjectDisplay}/>
+            <Mynavbar setMenu={setMenu} menu={menu} setProjectDisplay={setProjectDisplay} projectDisplay={projectDisplay}/>
             <Main menu={menu} projectDisplay={projectDisplay} setProjectDisplay={setProjectDisplay}/>
             <Myfooter />
         </div>
