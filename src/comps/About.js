@@ -14,7 +14,7 @@ const About = (props) => {
                 
                 <div id='imagesDiv'>
                 <div id='claimgDiv'>
-                    <img src={cla5} id='claImg'/>
+                    <img src={cla} id='claImg'/>
                 </div>
                 <div id='claimgDiv'>
                     <img src={cla2} id='claImg'/>
