@@ -1,9 +1,7 @@
 import React from 'react'
 import './about.css'
 import cla from '../images/cla.jpeg'
-import cla3 from '../images/cla3.jpeg'
 import cla4 from '../images/cla4.jpeg'
-import cla5 from '../images/cla5.jpeg'
 import cla2 from '../images/cla2.jpeg'
 
 const About = (props) => {
