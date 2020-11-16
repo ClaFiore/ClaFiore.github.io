@@ -21,6 +21,7 @@ const Tablefinder = (props) => {
                  <h4>Technologies/Libraries/Gems: </h4>
                      
                      <p>CSS Framework: Semantic UI and vanilla css</p>
+                     <p>Used Rails backend as API, database: Postgres</p>
                      <p>APIs: Google Maps, and Zomato for restaurants data</p>
                      <p>React class and functional components, State and Hooks</p>
                      <p>Authentication and Authorization with bcrypt, password_digest, JWT Token and localStorage</p>

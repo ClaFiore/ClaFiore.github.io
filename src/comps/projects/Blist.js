@@ -18,6 +18,7 @@ const Blist = (props) => {
                      <h4>Technologies/Libraries/Gems: </h4>
                     
                      <p>CSS: vanilla css</p>
+                     <p>Used Rails backend as API, database: SQL</p>
                      <p>JS: vanilla JavaScript; DOM manipulation with event listeners, fetch calls, iterators and more.</p>
                      <p>Full CRUD actions on bags, users, and rented items</p>
               
