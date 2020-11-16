@@ -9,8 +9,8 @@ const Blist = (props) => {
 
         <div className='projContent2'>
              <div className='projDescription3'>
-                 <p>With 'The B List' users can browse and sort all the handbags available, and they can select the handbag of their choice to rent it. All handbags are listed by users, who can be listers and renters at the same time.</p>
-                 <p>Each user can add a balance to their account and use it to complete the rental transaction. Tha amount increases or decreases after any transaction.</p>
+                 <p>With 'The B List' users can browse and sort the handbags available for rent, and select the item of their choice to rent it. All handbags are listed by users, who can be listers and renters at the same time, through a self-referencial table in the backend.</p>
+                 <p>Each user can add a balance to their account and use it to complete the rental transaction. Tha amount increases or decreases after each transaction.</p>
                  <p>I built 'The B List' with a partner, during our time at Flatiron School. We used Ruby on Rails for our backend and vanilla Javascript and CSS for our frontend.</p>
              </div>
              <div className='projFacts4'>
@@ -18,7 +18,7 @@ const Blist = (props) => {
                      <h4>Technologies/Libraries/Gems: </h4>
                     
                      <p>CSS: vanilla css</p>
-                     <p>JS: vanilla JavaScript</p>
+                     <p>JS: vanilla JavaScript; DOM manipulation with event listeners, fetch calls, iterators and more.</p>
                      <p>Full CRUD actions on bags, users, and rented items</p>
               
                  </div>
