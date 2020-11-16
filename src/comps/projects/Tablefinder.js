@@ -12,18 +12,18 @@ const Tablefinder = (props) => {
 
         <div className='projContent2'>
              <div className='projDescription3'>
-                 <p>TableFinder is a web application that allows users to browse restaurants in their location, or the location of their choice. They can filter restaurants by cuisine, and sort the results by price range or rating.</p>
-                 <p>With authentication and authorization, only users who are logged in can make a reservation, they can indicate their party size, and select a time. TableFinder will then show the user the available time slots for the selected restaurants, so the user can proceed with the reservation.</p>
-                 <p>I built TableFinder with a partner, through pair-programming, during our time at Flatiron School. We used Ruby on Rails for our backend and React for the frontend.</p>
+                 <p>TableFinder is a web application that allows users to browse restaurants in their location, or the location of their choice, and make reservations. They can filter restaurants by cuisine, and sort the results by price range or rating.</p>
+                 <p>With authentication and authorization, only users who are logged in can make a reservation, they can indicate their party size, and select a day and time. TableFinder will then show the user the time slots available for the selected restaurants, so the user can proceed with the reservation.</p>
+                 <p>I built TableFinder with a partner, through pair-programming with the agile methodology, during our time at Flatiron School. We used Ruby on Rails for our backend and React for the frontend.</p>
              </div>
              <div className='projFacts4'>
                  <div className='projTechnologies5'>
                  <h4>Technologies/Libraries/Gems: </h4>
                      
                      <p>CSS Framework: Semantic UI and vanilla css</p>
-                     <p>API: Google Maps, and Zomato for restaurants data</p>
+                     <p>APIs: Google Maps, and Zomato for restaurants data</p>
                      <p>React class and functional components, State and Hooks</p>
-                     <p>Authentication and Authorization with bcrypt and password_digest, JWT Token</p>
+                     <p>Authentication and Authorization with bcrypt, password_digest, JWT Token and localStorage</p>
                      <p>CRUD actions on the user; read and destroy for reservations, read for restaurants info</p>
                      
                  </div>
