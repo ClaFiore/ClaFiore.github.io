@@ -23,7 +23,7 @@ const About = (props) => {
 
                 <div id='contentAboutDiv'>
                     <p>Hi there! I'm Claudia, a software engineer based in Boston, MA and Washington, DC.</p>
-                    <p>Born and raised in Milan, Italy, I was fortunate to travel the world at a young age. The diversity of cultures and people that I came in contact with ignited my curiosity and has shaped my passion for understanding new perspectives. 
+                    <p>Born and raised in Milan, Italy, I was fortunate to travel the world at a young age. The diversity of cultures and people that I came in contact with ignited my curiosity and shaped my passion for understanding new perspectives. 
                         When I first visited the United States, I quickly became captivated by the economical power and technological progress, which I greatly desired to one day be a part of.  </p>
                     
                     <p>Graduating at the top of my class with a Bachelor's Degree in Economics, I went on to earn two Master's Degrees, one in International Business and the other in Marketing Management,
