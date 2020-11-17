@@ -37,7 +37,7 @@ const About = (props) => {
 
 
 
-                    <h2 style={{marginTop: '5%'}}>MY TECHNICAL SKILLS:</h2>
+                    <h1 style={{marginTop: '5%'}}>MY TECHNICAL SKILLS: </h1>
                     <p className='facts'>Ruby, Rails</p>
                     <p className='facts'>HTML, CSS, Bootstrap, Semantic</p>
                     <p className='facts'>JavaScript, React, React Router, React Hooks, React Redux</p>
