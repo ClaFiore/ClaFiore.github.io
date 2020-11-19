@@ -16,7 +16,7 @@ const Mynavbar = (props) => {
     return(
         <div id='greaterNavbarContainer'>
             <Navbar id='nav'>
-
+            {/* Spring animation on refresh */}
                 <Spring             //social media icons
                     from={{opacity: 0, marginLeft: -500}}
                     to={{opacity:1, marginLeft: 0}}
@@ -47,7 +47,7 @@ const Mynavbar = (props) => {
                 </Spring>
 
             </Navbar>
-            <Spring             //social media icons
+            <Spring             //button to go back to projects main page
             from={{opacity: 0, marginLeft: -500}}
             to={{opacity:1, marginLeft: 0}}
             config={{duration: 1500}}
