@@ -4,7 +4,7 @@ const Blog4 = props => {
 
     return(
         <div className='cardDiv'>
-            <h3 className='cardTitle'>Linear and Binary Search Algorithms in JavaScript and Ruby</h3>
+            <h3 className='cardTitle'>Linear and Binary Search in JavaScript</h3>
             <p className='publishedDate' ><em>Claudia Borghini</em><span>Sep 24 2020</span></p>
             <div className='blogContent' >
                 <p>Search Algorithms allow us to solve a specific search problem, and retrieve information from the database.</p>
