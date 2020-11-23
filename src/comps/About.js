@@ -7,7 +7,7 @@ import cla2 from '../images/cla2.jpeg'
 const About = (props) => {
     return(
         <div id='about'>
-            <h1>ABOUT</h1>
+            <h1 style={{color: '#00A2FF'}}>ABOUT</h1>
             <div id='innerAbout'>
                 
                 <div id='imagesDiv'>
@@ -37,7 +37,7 @@ const About = (props) => {
 
 
 
-                    <h1 style={{marginTop: '5%'}}>MY TECHNICAL SKILLS: </h1>
+                    <h1 style={{marginTop: '5%', color: '#00A2FF'}}>MY TECHNICAL SKILLS: </h1>
                     <p className='facts'>Ruby, Rails</p>
                     <p className='facts'>HTML, CSS, Bootstrap, Semantic</p>
                     <p className='facts'>JavaScript, React, React Router, React Hooks, React Redux</p>
