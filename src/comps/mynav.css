@@ -35,7 +35,6 @@
   font-size: 95%;
   letter-spacing: 2px;
   color: white;
-  /* border: 2px #F8BA00 solid; */
   border: 2px white solid;
   border-radius: 4px;
   outline: 0;
@@ -71,12 +70,13 @@
 
   .menu-btn:hover {
     color: #00001a;
+    border: #00A2FF;
   }
   
   .menu-btn::before {
     content: "";
     position: absolute;
-    background: #F8BA00;
+    background: #00A2FF;
     /* background: white; */
     bottom: 0;
     left: 0;
