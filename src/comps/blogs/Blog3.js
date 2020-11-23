@@ -5,7 +5,7 @@ const Blog3 = props => {
     return(
         <div className='cardDiv'>
             <h3 className='cardTitle'>JavaScript: Add and Remove an Event Listener</h3>
-            <p className='publishedDate' ><span><em>Claudia Borghini</em></span><span>Sep 3 2020</span></p>
+            <p className='publishedDate' ><em>Claudia Borghini</em><span>Sep 3 2020</span></p>
             <div className='blogContent' >
                 <p>As a Software Engineering student at Flatiron School, I am now studying JavaScript, and I’m having a lot of fun exploring all the cool things I can do with it, especially with the .addEventListener function.</p>
                 <h4>Mouseover</h4>

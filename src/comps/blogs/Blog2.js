@@ -7,7 +7,7 @@ const Blog2 = props => {
     return(
         <div className='cardDiv'>
             <h3 className='cardTitle'>Rails Basic ActiveRecord Methods</h3>
-            <p className='publishedDate' ><span><em>Claudia Borghini</em></span><span>Aug 13 2020</span></p>
+            <p className='publishedDate' ><em>Claudia Borghini</em><span>Aug 13 2020</span></p>
             <div className='blogContent'>
                 <p>ActiveRecord methods described in this article: create, new, assign_attributes, save, update, build, pluck, where, find_by, find.</p>
                 <h4>create</h4>
