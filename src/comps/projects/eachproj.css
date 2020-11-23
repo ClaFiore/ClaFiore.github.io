@@ -10,6 +10,7 @@
 
 .projtitle{
     text-align: center;
+    color: #00A2FF;
 }
 
 .projContent2{
@@ -39,8 +40,16 @@
     margin-bottom: 0;
 }
 
+.projTechnologies5 h4{
+    color: #00A2FF;
+}
+
 .projLinks6{
     width: 30%;
+}
+
+.projLinks6 h4{
+    color: #00A2FF;
 }
 
 .projLinks6 p{

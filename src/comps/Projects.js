@@ -10,7 +10,7 @@ const Projects = (props) => {
 
     return(
         <div id='projects'>
-            <h1 style={{textAlign: 'center'}}>
+            <h1 style={{textAlign: 'center', color: '#00A2FF'}}>
                 PROJECTS
             </h1>
         <div id='innerProjects'>
