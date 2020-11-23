@@ -3,6 +3,7 @@ import Blog1 from './blogs/Blog1'
 import Blog2 from './blogs/Blog2'
 import Blog3 from './blogs/Blog3'
 import Blog4 from './blogs/Blog4'
+import Blog5 from './blogs/Blog5'
 import './blogs/blogs.css'
 
 const Blogs = (props) => {
@@ -10,6 +11,7 @@ const Blogs = (props) => {
 
     return(
         <div id='blogsContainer'>
+            <Blog5 />
             <Blog4 />
             <Blog3 />
             <Blog2 />
