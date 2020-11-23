@@ -35,6 +35,7 @@
   font-size: 95%;
   letter-spacing: 2px;
   color: white;
+  /* border: 2px #F8BA00 solid; */
   border: 2px white solid;
   border-radius: 4px;
   outline: 0;
@@ -75,7 +76,8 @@
   .menu-btn::before {
     content: "";
     position: absolute;
-    background: white;
+    background: #F8BA00;
+    /* background: white; */
     bottom: 0;
     left: 0;
     right: 0;

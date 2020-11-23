@@ -21,6 +21,7 @@
   font-weight: 500;
   animation: 3s slidein;
   text-align: center;
+  color: #F8BA00;
 }
 
 @keyframes slidein {
