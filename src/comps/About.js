@@ -30,9 +30,9 @@ const About = (props) => {
                     <p>Following my studies, I moved to New York, where I began working in the Marketing department of Tod's Group, and then as an analyst for Wintrust Life Finance, 
                         a major financial corporation focused on insurance premium financing.<br></br>
                         I then moved to Washington DC where I became involved with the Embassy of Italy and worked as Marketing and Events Coordinator at the Italian Cultural Society, 
-                        to promote the Italian language and culture in the DC metro area and school system.
+                        to promote the Italian language and culture in the DC metro area and school systems.
                     </p>
-                    <p>My experience in marketing pushed me to learn more about the digital aspect of it, with a focus on the internet and web applications.<br></br>
+                    <p>My experience in digital marketing and my curiosity for the internet and web applications, brought me to realize the importance of programming. <br></br>
                     In 2020 I dedicated myself to the study of software engineering and programming. I am now prepared and eager to contribute to the technological innovation that I experienced with such wonder as a young girl. </p>
 
 
