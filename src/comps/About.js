@@ -72,7 +72,7 @@ const About = (props) => {
                     <i className="fa fa-graduation-cap" aria-hidden="true"></i>
                     <p className='facts'>Bachelor of Science</p>
                     <p className='facts'>Economics and Management</p>
-                    <p className='facts'>@<a target="_blank" rel="noopener noreferrer" href='https://international.unicatt.it/' className='school'>Catholic University of the Sacred Heart</a></p>
+                    <p className='facts'>@<a target="_blank" rel="noopener noreferrer" href='https://international.unicatt.it/' className='school'>Univeristà Cattolica del Sacro Cuore</a></p>
                     <p className='facts'>Milan, Italy / London, UK</p>
                 </div>
             </div>
