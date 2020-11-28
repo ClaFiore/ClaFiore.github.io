@@ -33,7 +33,8 @@ const About = (props) => {
                         to promote the Italian language and culture in the DC metro area and school systems.
                     </p>
                     <p>My experience in digital marketing and my curiosity for the internet and web applications, brought me to realize the importance of programming. <br></br>
-                    In 2020 I dedicated myself to the study of software engineering and programming. I am now prepared and eager to contribute to the technological innovation that I experienced with such wonder as a young girl. </p>
+                    In 2020 I dedicated myself to the study of software engineering and programming. I specialized in building web application using Ruby, Rails, JavaScript, React and everything in between.</p>
+                    <p>I am now prepared and eager to contribute to the technological innovation that I experienced with such wonder as a young girl. </p>
 
 
 
@@ -41,7 +42,7 @@ const About = (props) => {
                     <p className='facts'>Ruby, Rails</p>
                     <p className='facts'>HTML, CSS, Bootstrap, Semantic</p>
                     <p className='facts'>JavaScript, React, React Router, React Hooks, React Redux</p>
-                    <p className='facts'>CRUD, API usage, Authentication and Authorization, JSON Web Token</p>
+                    <p className='facts'>SQL, CRUD, API usage, Authentication and Authorization, JSON Web Token</p>
                 </div>
 
             </div>
