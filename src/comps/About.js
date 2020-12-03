@@ -20,7 +20,7 @@ const About = (props) => {
                 </div>
 
                 <div id='contentAboutDiv'>
-                    <p>Hi there! I'm Claudia, a software engineer with a background in marketing and finance.</p>
+                    <p>Hi there! My name is Claudia, I'm a software engineer with a background in marketing and finance.</p>
                     <p>Born and raised in Milan, Italy, I was fortunate to travel the world at a young age. 
                     The diversity of cultures and people that I came in contact with ignited my curiosity and shaped my passion for understanding new perspectives.</p>
                     
