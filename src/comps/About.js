@@ -39,10 +39,10 @@ const About = (props) => {
 
 
                     <h1 style={{marginTop: '5%', color: '#00A2FF'}}>MY TECHNICAL SKILLS: </h1>
-                    <p className='facts'>Ruby, Rails</p>
+                    <p className='facts'>Ruby, Rails, SQL, Postgres</p>
                     <p className='facts'>HTML, CSS, Bootstrap, Semantic</p>
                     <p className='facts'>JavaScript, React, React Router, React Hooks, React Redux</p>
-                    <p className='facts'>SQL, Postgres, CRUD actions, API usage and integration, Authentication and Authorization, JSON Web Token</p>
+                    <p className='facts'>CRUD actions, API usage and integration, Authentication and Authorization, JSON Web Token</p>
                 </div>
 
             </div>
