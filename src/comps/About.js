@@ -42,7 +42,7 @@ const About = (props) => {
                     <p className='facts'>Ruby, Rails</p>
                     <p className='facts'>HTML, CSS, Bootstrap, Semantic</p>
                     <p className='facts'>JavaScript, React, React Router, React Hooks, React Redux</p>
-                    <p className='facts'>SQL, CRUD, API usage, Authentication and Authorization, JSON Web Token</p>
+                    <p className='facts'>SQL, Postgres, CRUD actions, API usage and integration, Authentication and Authorization, JSON Web Token</p>
                 </div>
 
             </div>
