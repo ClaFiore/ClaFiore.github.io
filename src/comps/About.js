@@ -25,7 +25,7 @@ const About = (props) => {
                     The diversity of cultures and people that I came in contact with ignited my curiosity and shaped my passion for understanding new perspectives.</p>
                     
                     <p>Graduating at the top of my class with a Bachelor's Degree in Economics, I went on to earn two Master's Degrees, one in International Business and the other in Marketing Management,
-                        where I graduated after defending a dissertation on software innovation that improves customer experience and drives online sales growth.</p>
+                        where I graduated after defending a dissertation on a software innovation that improves customers experience and drives online sales growth.</p>
 
                     <p>Following my studies, I moved to New York, where I began working in the Marketing department of Tod's Group, and then as an analyst for Wintrust Life Finance, 
                         a major financial corporation focused on insurance premium financing.<br></br>
@@ -33,8 +33,8 @@ const About = (props) => {
                         to promote the Italian language and culture in the DC metro area and school systems.
                     </p>
                     <p>My experience in digital marketing and my curiosity for new technologies, brought me to realize the importance of programming.
-                    In 2020 I dedicated myself to the study of software engineering and programming. I specialized in building web application using Ruby, Rails, JavaScript, React and everything in between.</p>
-                    <p>I am now prepared and eager to contribute to the technological innovation that I experienced with such wonder as a young girl. </p>
+                    In 2020 I dedicated myself to the study of software engineering and web-programming. I specialized in building web application using Ruby, Rails, JavaScript, React and everything in between.</p>
+                    <p>I am now prepared and eager to combine my technical skills and my marketing and business background  </p>
 
 
 
