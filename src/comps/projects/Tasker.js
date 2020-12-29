@@ -25,7 +25,7 @@ const Tasker = (props) => {
                         
                     </div>
                     <div className='projLinks6'>
-                        <h4>Find my work here: </h4>
+                        <h4>Find my work here:</h4>
                          <p><a className='projLink' target="_blank" rel="noopener noreferrer" href='https://www.youtube.com/watch?v=YKjEj7KHwyA&feature=youtu.be'>Demo Video</a></p>
                          <p><a className='projLink' target="_blank" rel="noopener noreferrer" href='https://github.com/ClaFiore/Tasker-Backend'>Github Backend</a></p>
                          <p><a className='projLink' target="_blank" rel="noopener noreferrer" href='https://github.com/ClaFiore/Tasker-Frontend'>Github Frontend</a></p>
