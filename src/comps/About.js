@@ -34,7 +34,7 @@ const About = (props) => {
                     </p>
                     <p>My experience in digital marketing and my curiosity for new technologies, brought me to realize the importance of programming.
                     In 2020 I dedicated myself to the study of software engineering and web-programming. I specialized in building web application using Ruby, Rails, JavaScript, React and everything in between.</p>
-                    <p>I am now prepared and eager to combine my technical skills and my marketing and business background to join a passionate team and deliver elegant solutions.</p>
+                    <p>At the start of 2021 I joined Impact as Associate Frontend Engineer, combining my marketing expertise with my technical skills.</p>
 
 
 
